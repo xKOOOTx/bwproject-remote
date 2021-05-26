@@ -1,0 +1,31 @@
+// variables
+$greyPlus:        #E5E5E5;
+$lightGrey:       #F6F8F9;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  display: block;
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.profile__dropDown {
+  width: 164px;
+  height: 144px;
+  border: 1px solid $lightGrey;
+  &_list {
+    &:hover {
+      background: $greyPlus;
+    }
+  }
+  &_link {
+    display: block;
+    padding: 8px 20px;
+
+  }
+}
